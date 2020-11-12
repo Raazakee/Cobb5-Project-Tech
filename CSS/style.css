@@ -1,0 +1,192 @@
+* {
+    margin:0;
+    padding:0;
+  }
+  body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight:300;
+    font-size: 20px;
+    line-height:30px;
+    color:black;
+    background:rgb(178, 176, 32);
+  }
+  Nav{
+  width:100%;
+  height: 100px;
+  background-color: greenyellow;
+  font-size: 30px;
+  }
+   .container {
+    width:100%;
+    margin:0 auto;
+      position:relative;
+  } 
+  .smallContainer{
+    max-width:400px;
+  }
+  #contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact textarea, #contact button[type="submit"] { font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
+  #contact {
+    background:#F9F9F9;
+    padding:25px;
+    margin:50px 0;
+  }
+  #contact h3 {
+    color: #F96;
+    display: block;
+    font-size: 30px;
+    font-weight: 400;
+  }
+  #contact h4 {
+    margin:5px 0 15px;
+    display:block;
+    font-size:13px;
+  }
+  fieldset {
+    border: medium none !important;
+    margin: 0 0 10px;
+    min-width: 100%;
+    padding: 0;
+    width: 100%;
+  }
+  #contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea {
+    width:100%;
+    border:1px solid #CCC;
+    background:#FFF;
+    margin:0 0 5px;
+    padding:10px;
+  }
+  #contact input[type="text"]:hover, #contact input[type="email"]:hover, #contact input[type="tel"]:hover, #contact input[type="url"]:hover, #contact textarea:hover {
+    -webkit-transition:border-color 0.3s ease-in-out;
+    -moz-transition:border-color 0.3s ease-in-out;
+    transition:border-color 0.3s ease-in-out;
+    border:1px solid #AAA;
+  }
+  #contact textarea {
+    height:100px;
+    max-width:100%;
+    resize:none;
+  }
+  #contact button[type="submit"] {
+    cursor:pointer;
+    width:100%;
+    border:none;
+    background:#0CF;
+    color:#FFF;
+    margin:0 0 5px;
+    padding:10px;
+    font-size:15px;
+  }
+  #contact button[type="submit"]:hover {
+      background:#09C;
+  }
+  :root {
+      box-sizing: border-box;
+      margin: 0;
+    }
+    *,
+    ::before,
+    ::after {
+      box-sizing: inherit;
+      margin: inherit;
+    }
+    .card {
+        background: transparent;
+        border: 3px solid #28D7FE;
+        box-shadow: inset 0 0 1vw #1041FF, 0 0 3vw #1041FF, inset 0 0 6vw #1041FF, 0 0 6vw #1041FF, 0 0 .4vw #8BFDFE;
+        border-radius: .5625rem;
+        padding: 30px;
+    }
+    .diner {
+      font-size: 72px;
+      font-family: 'Fredoka One', serif;
+      display: block;
+      color: transparent;
+      paint-order: fill stroke markers;
+      -webkit-text-stroke-width: 1.5px;
+      -webkit-text-stroke-color: #FED128;
+      text-shadow: 0 0 3vw #FA1C16, 0 0 3vw #FA1C16, 0 0 3vw #FA1C16, 0 0 0.4vw #FED128;
+      font-weight: bold;
+      letter-spacing: 5px;
+    }
+    .faulty-letter {
+      -webkit-text-stroke-color: #444444;
+      text-shadow: 0 0 1vw #222222, 0 0 1vw #222222, 0 0 1vw #222222, 0 0 0.2vw #444444;
+      animation-name: blink;
+      animation-duration: 2s;
+      animation-iteration-count: 9999;
+    }
+    .welcome {
+      display: block;
+      color: #28D7FE;
+      font-size: 40px;
+      font-family: Pacifico, Parisienne, serif;
+      text-shadow: 0 0 3vw #1041FF, 0 0 3vw #1041FF, 0 0 10vw #1041FF, 0 0 10vw #1041FF, 0 0 0.4vw #8BFDFE;
+      font-weight: normal;
+    }
+    @keyframes blink {
+      from,
+      38%,
+      43.25%,
+      49.5%,
+      51.125%,
+      to {
+        -webkit-text-stroke-color: #444444;
+      text-shadow: 0 0 1vw #222222, 0 0 1vw #222222, 0 0 1vw #222222, 0 0 0.2vw #444444;
+      }
+      38.5%,
+      43%,
+      50%,
+      51% {
+        -webkit-text-stroke-color: #FED128;
+      text-shadow: 0 0 3vw #FA1C16, 0 0 3vw #FA1C16, 0 0 3vw #FA1C16, 0 0 0.4vw #FED128;
+      }
+    }
+   hpContent{
+      text-align: center;
+      box-sizing: inherit;
+      margin: inherit;
+      align-content: center;
+      color:black;
+  }
+  img{ 
+    height :300px;
+  }
+  footer{
+    margin-bottom: 40px;
+    color: black;
+    background-color: greenyellow ;
+  }
+  .logoImg{
+    height:150px;
+  }
+  .smallContainer{
+  max-width: 400px;
+  }
+  .col-sm1 p{
+  float: left;
+  }
+  .foodService{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: greenyellow;
+    color: blue;
+    text-align: center;
+  }
+  .prepImg{
+    margin-top: 20px;
+    margin-bottom: 20px ;
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 75%;
+    display:block;
+  }
+  .interiorImg{
+    margin-top: 20px;
+    margin-bottom: 20px ;
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 75%;
+    display:block;
+  }

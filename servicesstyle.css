@@ -1,0 +1,311 @@
+* {
+    margin:0;
+    padding:0;
+  }
+  body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight:300;
+    font-size: 20px;
+    line-height:30px;
+    color:black;
+    background:rgb(178, 176, 32);
+  }
+  Nav{
+  width:100%;
+  height: 100px;
+  background-color: greenyellow;
+  font-size: 30px;
+  }
+/* footer for with social media contribute by josh*/
+.footerServices {
+  position: sticky;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: greenyellow;
+  color: blue;
+  text-align: center;
+}
+  .fa {
+    padding: 15px;
+    font-size: 25px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  .fa:hover {
+      opacity: 0.7;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-google {
+    background: #DD4B39;
+    color: white;
+  }
+  .fa-linkedin {
+    background: #007BB5;
+    color: white;
+  }
+  /* Create four equal columns that sits next to each other */
+  .rowPic {
+    flex: 95%;
+    max-width: 95%;
+    padding: 0 4px;
+  }
+  .row img {
+    margin-top: 8px;
+    width: 100%;
+  }
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .rowPic {
+      flex: 100%;
+      max-width: 50%;
+    }
+  }
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .rowPic {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+  /* Style the form element with a border around it */
+  /* Add some padding and a grey background color to containers */
+  .container { max-width: 100%;
+    padding: 25px;
+    background-color: greenyellow;
+  }
+  /* Style the input elements and the submit button */
+  input[type=text], input[type=submit] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  /* Add margins to the checkbox */
+  input[type=checkbox] {
+    margin-top: 16px;
+  }
+  /* Style the submit button */
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+  }
+  input[type=submit]:hover {
+    opacity: 0.8;
+  }
+  /* text that is center inside the newletter*/
+  .txtnew {text-align: center;margin-top: 20px;margin-bottom: 20px;}
+  .checked  {
+    color: orange;}
+    /* add cart with entree*/
+    .containerCard {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        max-width: 300px;
+        margin: auto;
+        text-align: center;
+        font-family: arial;
+      }
+      .pricecard {
+        color: grey;
+        font-size: 22px;
+      }
+      .card button {
+        border: none;
+        outline: 0;
+        padding: 12px;
+        color: white;
+        background-color: #000;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+        font-size: 18px;
+      }
+      .card button:hover {
+        opacity: 0.7;
+      }
+ /* coupon style */
+      .coupon {
+        border: 5px dotted #bbb; /* Dotted border */
+        width: 60%;
+        border-radius: 20px; /* Rounded border */
+        margin: 0 auto; /* Center the coupon */
+        max-width: 700px;
+      }
+      .containerCoupon {
+        padding: 2px 16px;
+        background-color:rgb(178, 176, 32);margin-top: 20px;margin-bottom: 20px;
+      }
+      .promo {
+        background: #ccc;
+        padding: 3px;
+      }
+      .expire {
+        color: red;
+      }* {
+    margin:0;
+    padding:0;
+  }
+  body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight:300;
+    font-size: 20px;
+    line-height:30px;
+    color:black;
+    background:rgb(178, 176, 32);
+  }
+  Nav{
+  width:100%;
+  height: 100px;
+  background-color: greenyellow;
+  font-size: 30px;
+  }
+/* footer for with social media contribute by josh*/
+.footerServices {
+  position: sticky;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: greenyellow;
+  color: blue;
+  text-align: center;
+}
+  .fa {
+    padding: 15px;
+    font-size: 25px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  .fa:hover {
+      opacity: 0.7;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-google {
+    background: #DD4B39;
+    color: white;
+  }
+  .fa-linkedin {
+    background: #007BB5;
+    color: white;
+  }
+  /* Create four equal columns that sits next to each other */
+  .rowPic {
+    flex: 95%;
+    max-width: 95%;
+    padding: 0 4px;
+  }
+  .row img {
+    margin-top: 8px;
+    width: 100%;
+  }
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .rowPic {
+      flex: 100%;
+      max-width: 50%;
+    }
+  }
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .rowPic {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+  /* Style the form element with a border around it */
+  /* Add some padding and a grey background color to containers */
+  .container { max-width: 100%;
+    padding: 25px;
+    background-color: greenyellow;
+  }
+  /* Style the input elements and the submit button */
+  input[type=text], input[type=submit] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  /* Add margins to the checkbox */
+  input[type=checkbox] {
+    margin-top: 16px;
+  }
+  /* Style the submit button */
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+  }
+  input[type=submit]:hover {
+    opacity: 0.8;
+  }
+  /* text that is center inside the newletter*/
+  .txtnew {text-align: center;margin-top: 20px;margin-bottom: 20px;}
+  .checked  {
+    color: orange;}
+    /* add cart with entree*/
+    .containerCard {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        max-width: 300px;
+        margin: auto;
+        text-align: center;
+        font-family: arial;
+      }
+      .pricecard {
+        color: grey;
+        font-size: 22px;
+      }
+      .card button {
+        border: none;
+        outline: 0;
+        padding: 12px;
+        color: white;
+        background-color: #000;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+        font-size: 18px;
+      }
+      .card button:hover {
+        opacity: 0.7;
+      }
+ /* coupon style */
+      .coupon {
+        border: 5px dotted #bbb; /* Dotted border */
+        width: 60%;
+        border-radius: 20px; /* Rounded border */
+        margin: 0 auto; /* Center the coupon */
+        max-width: 700px;
+      }
+      .containerCoupon {
+        padding: 2px 16px;
+        background-color:rgb(178, 176, 32);margin-top: 20px;margin-bottom: 20px;
+      }
+      .promo {
+        background: #ccc;
+        padding: 3px;
+      }
+      .expire {
+        color: red;
+      }
